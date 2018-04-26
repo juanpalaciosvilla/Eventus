@@ -9,18 +9,21 @@
     <script src="../Assets/js/bootstrap.js"></script>
 </head>
 <body>
-<div style="position:absolute; left:20%; top:30%;">
-    <form class="form-inline">
-  <div class="form-group mb-2">
-    <label >Email</label>
-    <input type="text" class="form-control-plaintext" id="staticEmail2" value="email@example.com"/>
-  </div>
-  <div class="form-group mx-sm-3 mb-2">
-    <label for="inputPassword2" class="sr-only">Password</label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="Password"/>
-  </div>
-  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
-</form>
-</div>
+    <div  style="position: absolute; left: 40%; top: 30%; ">
+        <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Usuario</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese ussario" />
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Ingrese contraseña" />
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </div>
+        </form>
+    </div>
+
 </body>
 </html>
