@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="PortalEventus.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Assets/css/bootstrap.css" rel="stylesheet" />
+    <script src="Assets/js/bootstrap.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div style="margin-top: 20px;">
+        <form runat="server">
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <a class="navbar-brand" href="#">Eventus</a>
+                </div>
+                <div class="col-1">&nbsp;</div>
+                <div class="col-2">
+                    <asp:LinkButton ID="lnkLogin" runat="server" CssClass="btn btn-success btn-sm">Login</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="btn btn-success btn-sm">Registrar</asp:LinkButton>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="mainContent">
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
