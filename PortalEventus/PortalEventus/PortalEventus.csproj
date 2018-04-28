@@ -67,17 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Assets\css\bootstrap-grid.css.map" />
-    <Content Include="Assets\css\bootstrap-grid.min.css.map" />
-    <Content Include="Assets\css\bootstrap-reboot.css.map" />
-    <Content Include="Assets\css\bootstrap-reboot.min.css.map" />
-    <Content Include="Assets\css\bootstrap.css.map" />
-    <Content Include="Assets\css\bootstrap.min.css.map" />
-    <Content Include="Assets\js\bootstrap.bundle.js.map" />
-    <Content Include="Assets\js\bootstrap.bundle.min.js.map" />
-    <Content Include="Assets\js\bootstrap.js.map" />
-    <Content Include="Assets\js\bootstrap.min.js.map" />
     <Content Include="Main.Master" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -86,14 +81,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\css\bootstrap-grid.css" />
-    <Content Include="Assets\css\bootstrap-grid.min.css" />
-    <Content Include="Assets\css\bootstrap-reboot.css" />
-    <Content Include="Assets\css\bootstrap-reboot.min.css" />
     <Content Include="Assets\css\bootstrap.css" />
     <Content Include="Assets\css\bootstrap.min.css" />
-    <Content Include="Assets\js\bootstrap.bundle.js" />
-    <Content Include="Assets\js\bootstrap.bundle.min.js" />
+    <Content Include="Assets\css\font-awesome.css" />
+    <Content Include="Assets\css\font-awesome.min.css" />
+    <Content Include="Assets\css\style.css" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\img\bkeventus.jpg" />
+    <Content Include="Assets\img\eventus.png" />
     <Content Include="Assets\js\bootstrap.js" />
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Global.asax" />
