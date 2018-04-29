@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\footer.css" />
     <Content Include="Images\BackGround.jpg" />
     <Content Include="packages.config" />
     <Content Include="Main.Master" />
@@ -96,7 +97,9 @@
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="Seguridad\Login.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
