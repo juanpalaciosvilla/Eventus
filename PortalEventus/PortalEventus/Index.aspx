@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <div class="container rounded idxbox">
         <div class="row d-flex flex-column">
-            <h1>Vive más itensamente!</h1>
+            <h1>Vive más intensamente!</h1>
             <h3>¡Tenemos el plan perfecto para Tí!</h3>
             <div class="row">
                 <div class="col-md-1"></div>
